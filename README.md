@@ -60,13 +60,10 @@ My_Notes/
 │   └── themes/
 │       ├── light.css
 │       └── dark.css
-├── .env
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
-
-*The structure is illustrative. Adjust it to match the files in your final repository.*
 
 ## ⚙️ Installation and Setup
 
@@ -79,11 +76,9 @@ My_Notes/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/My_Notes.git
+git clone https://github.com/ChetanLokare/My_Notes.git
 cd My_Notes
 ```
-
-Replace `YOUR_USERNAME` with your GitHub username and update the repository name if necessary.
 
 ### 2. Create a virtual environment
 
@@ -123,7 +118,7 @@ Configure the variables as follows:
 
 - `MONGO_URI`: Your MongoDB connection string.
 - `SESSION_SECRET`: A strong, randomly generated secret for session security.
-- `SESSION_HTTPS_ONLY`: Use `false` for local HTTP development when appropriate for your configuration. Enable secure cookies when deploying behind HTTPS.
+- `SESSION_HTTPS_ONLY`: Use `false` for local HTTP development. Set it to `true` when deploying behind HTTPS so cookies are secure.
 
 Make sure MongoDB is accessible and the connection string has the required permissions.
 
@@ -152,7 +147,7 @@ The application uses a MongoDB database named `Notes` with the following collect
 | `users` | Stores user account data |
 | `notes` | Stores personal notes |
 
-Each user's notes should be associated with their user ID. All note retrieval and modification operations should enforce ownership so users cannot access or modify other users' notes.
+Each user's notes are associated with their user ID. All note retrieval and modification operations should enforce ownership so users cannot access or modify other users' notes.
 
 ## 🔐 Security Considerations
 
@@ -183,8 +178,6 @@ Before publishing a release, verify the application manually:
 
 ## 🔮 Future Improvements
 
-Possible future enhancements include:
-
 - Automated tests for API endpoints and authentication.
 - CSRF protection and login rate limiting.
 - Note categories, tags, and pinned notes.
@@ -201,12 +194,10 @@ The project is part of my learning journey in backend and full-stack web develop
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Chetan Lokare**
 
-- GitHub: [YOUR_GITHUB_USERNAME](https://github.com/YOUR_GITHUB_USERNAME)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/)
-
-Replace the placeholders with your actual profile information.
+- GitHub: [ChetanLokare](https://github.com/ChetanLokare)
+- LinkedIn: [Chetan Lokare](https://www.linkedin.com/in/chetan-lokare-50ba65175)
 
 ---
 
