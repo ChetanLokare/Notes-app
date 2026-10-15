@@ -1,0 +1,10 @@
+/*
+ * My_Notes — CSS entry point
+ *
+ * Keep shared component styles in common.css.
+ * Keep color palettes in themes/light.css and themes/dark.css.
+ */
+
+@import url("/static/themes/light.css");
+@import url("/static/themes/dark.css");
+@import url("/static/common.css");

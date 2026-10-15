@@ -1,0 +1,101 @@
+
+/* =========================================================
+   My_Notes — Light Theme
+   File: static/themes/light.css
+   ========================================================= */
+
+/* Default theme and explicit light theme */
+:root,
+html[data-theme="light"] {
+    color-scheme: light;
+
+    /* Page and surfaces */
+    --page-bg: #f5f7fb;
+    --surface: #ffffff;
+    --surface-muted: #f7f8fc;
+    --surface-hover: #eef2ff;
+    --header-bg: rgb(255 255 255 / 94%);
+
+    /* Text */
+    --text-primary: #172033;
+    --text-secondary: #5d687c;
+    --text-muted: #7b8598;
+
+    /* Borders */
+    --border: #e1e6ef;
+    --border-strong: #cbd3e1;
+
+    /* Primary action */
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+    --primary-soft: #eef2ff;
+    --primary-text: #ffffff;
+
+    /* Success */
+    --success: #15803d;
+    --success-soft: #dcfce7;
+
+    /* Warning / important notes */
+    --warning: #b45309;
+    --warning-soft: #fef3c7;
+
+    /* Danger / delete */
+    --danger: #b91c1c;
+    --danger-hover: #991b1b;
+    --danger-soft: #fee2e2;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgb(26 39 68 / 5%);
+    --shadow-md: 0 12px 30px rgb(26 39 68 / 8%);
+
+    /* Keyboard focus */
+    --focus-ring: 0 0 0 3px rgb(79 70 229 / 20%);
+}
+
+/*
+   System theme:
+   JS resolves the system preference into data-theme="light"
+   or data-theme="dark" and preserves the user's choice in
+   data-theme-preference="system".
+
+   These declarations apply only when System is selected and
+   the operating system prefers dark mode.
+*/
+@media (prefers-color-scheme: dark) {
+    html[data-theme-preference="system"] {
+        color-scheme: dark;
+
+        --page-bg: #10131c;
+        --surface: #191e2b;
+        --surface-muted: #151a26;
+        --surface-hover: #282f45;
+        --header-bg: rgb(25 30 43 / 94%);
+
+        --text-primary: #edf1fa;
+        --text-secondary: #b3bdd0;
+        --text-muted: #8d98ad;
+
+        --border: #30384b;
+        --border-strong: #46516a;
+
+        --primary: #a39eff;
+        --primary-hover: #b9b5ff;
+        --primary-soft: #2a2850;
+        --primary-text: #111225;
+
+        --success: #4ade80;
+        --success-soft: #173b2b;
+
+        --warning: #fbbf24;
+        --warning-soft: #443416;
+
+        --danger: #f87171;
+        --danger-hover: #fca5a5;
+        --danger-soft: #482328;
+
+        --shadow-sm: 0 2px 8px rgb(0 0 0 / 16%);
+        --shadow-md: 0 12px 30px rgb(0 0 0 / 25%);
+
+        --focus-ring: 0 0 0 3px rgb(139 133 255 / 25%);
+    }
+}

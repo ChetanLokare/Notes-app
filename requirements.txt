@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pymongo
+jinja2
+pwdlib[argon2]
+itsdangerous
+python-multipart
+python-dotenv

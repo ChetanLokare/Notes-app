@@ -1,0 +1,51 @@
+
+/* =========================================================
+   My_Notes — Dark Theme
+   File: static/themes/dark.css
+   ========================================================= */
+
+html[data-theme="dark"] {
+    color-scheme: dark;
+
+    /* Page and surfaces */
+    --page-bg: #10131c;
+    --surface: #191e2b;
+    --surface-muted: #151a26;
+    --surface-hover: #282f45;
+    --header-bg: rgb(25 30 43 / 94%);
+
+    /* Text */
+    --text-primary: #edf1fa;
+    --text-secondary: #b3bdd0;
+    --text-muted: #8d98ad;
+
+    /* Borders */
+    --border: #30384b;
+    --border-strong: #46516a;
+
+    /* Primary action */
+    --primary: #a39eff;
+    --primary-hover: #b9b5ff;
+    --primary-soft: #2a2850;
+    --primary-text: #111225;
+
+    /* Success */
+    --success: #4ade80;
+    --success-soft: #173b2b;
+
+    /* Warning / important notes */
+    --warning: #fbbf24;
+    --warning-soft: #443416;
+
+    /* Danger / delete */
+    --danger: #f87171;
+    --danger-hover: #fca5a5;
+    --danger-soft: #482328;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgb(0 0 0 / 16%);
+    --shadow-md: 0 12px 30px rgb(0 0 0 / 25%);
+
+    /* Keyboard focus */
+    --focus-ring: 0 0 0 3px rgb(139 133 255 / 25%);
+}
